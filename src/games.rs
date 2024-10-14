@@ -4,7 +4,7 @@ pub struct Game {
     pub yaw: f64,
 }
 
-fn get_game(query: &str) -> Option<&Game> {
+pub fn get_game(query: &str) -> Option<&Game> {
     GAMES
         .iter()
         .find(|&game| game.title == query || game.aliases.iter().any(|&alias| alias == query))
