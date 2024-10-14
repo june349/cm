@@ -11,7 +11,7 @@ struct Cli {
 
 #[derive(Subcommand)]
 enum Command {
-    /// Convert a game sensitivity to cm/360°
+    /// Convert your in-game sensitivity to cm/360°
     From {
         /// The game you're converting from
         game: String,
@@ -21,7 +21,7 @@ enum Command {
         dpi: u32,
     },
 
-    /// Convert cm/360° to a game sensitivity
+    /// Convert your cm/360° to an in-game sensitivity
     To {
         /// The game you're converting to
         game: String,
