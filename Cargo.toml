@@ -1,0 +1,10 @@
+[package]
+name = "cm"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["June <lavender125@proton.me>"]
+description = "Calculate and convert your cm/360°"
+repository = "https://github.com/june349/cm"
+
+[dependencies]
