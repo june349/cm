@@ -8,3 +8,4 @@ description = "Calculate and convert your cm/360°"
 repository = "https://github.com/june349/cm"
 
 [dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
