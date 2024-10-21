@@ -24,16 +24,16 @@ pub const GAMES: &[Game; 5] = &[
     Game {
         title: "Valorant",
         aliases: &["val"],
-        yaw: 0.0066,
+        yaw: 0.07,
     },
     Game {
         title: "Apex Legends",
         aliases: &["apex"],
-        yaw: 0.0066,
+        yaw: 0.022,
     },
     Game {
         title: "Team Fortress 2",
         aliases: &["tf2"],
-        yaw: 0.0066,
+        yaw: 0.022,
     },
 ];
