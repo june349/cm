@@ -10,7 +10,7 @@ pub fn get_game(query: &str) -> Option<&Game> {
         .find(|&game| game.title == query || game.aliases.iter().any(|&alias| alias == query))
 }
 
-pub const GAMES: &[Game] = &[
+pub const GAMES: &[Game; 2] = &[
     Game {
         title: "Counter-Strike",
         aliases: &["cs", "css", "cs2", "csgo"],
